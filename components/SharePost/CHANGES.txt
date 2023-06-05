@@ -1,0 +1,4 @@
+SHARE POST 4.0 
+==============
+- [E] Allow to share videos, polls, evenets. 
+- [E] Improved 

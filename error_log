@@ -1,0 +1,1173 @@
+[17-May-2023 21:53:03 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[17-May-2023 21:53:03 Europe/Moscow] PHP Stack trace:
+[17-May-2023 21:53:03 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[17-May-2023 21:53:03 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[17-May-2023 23:25:05 Europe/Moscow] [#1684355105|310D5E672294A21389546CE192BDC86A] mysqli_sql_exception: Unknown column 'u.agent_status' in 'where clause' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(120): DB->query()
+#2 /usr/www/users/weplayb/classes/UserAgent.php(20): DB->select_sql()
+#3 /usr/www/users/weplayb/classes/User.php(187): UserAgent->drawAgentBlock()
+#4 /usr/www/users/weplayb/classes/User.php(23): User->UserPage()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[17-May-2023 23:47:12 Europe/Moscow] [#1684356432|55385A3BE02451EDFC10069F76AACE61] TypeError: date(): Argument #2 ($timestamp) must be of type ?int, string given in /usr/www/users/weplayb/classes/UserAgent.php:70
+Stack trace:
+#0 /usr/www/users/weplayb/classes/UserAgent.php(70): date()
+#1 /usr/www/users/weplayb/classes/UserAgent.php(59): UserAgent->drawClientsItem()
+#2 /usr/www/users/weplayb/classes/User.php(189): UserAgent->drawClientsBlock()
+#3 /usr/www/users/weplayb/classes/User.php(23): User->UserPage()
+#4 /usr/www/users/weplayb/index.php(108): User->Content()
+#5 {main}
+[17-May-2023 23:54:41 Europe/Moscow] [#1684356881|3C92968B94A0D085A03835713FAB2CBF] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1831): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 07:31:39 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[18-May-2023 07:31:39 Europe/Moscow] PHP Stack trace:
+[18-May-2023 07:31:39 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 07:31:39 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[18-May-2023 10:36:29 Europe/Moscow] [#1684395389|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1831): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 10:37:22 Europe/Moscow] [#1684395442|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1831): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 10:37:25 Europe/Moscow] [#1684395445|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1831): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 10:39:34 Europe/Moscow] [#1684395574|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1831): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 09:57:15 Europe/Berlin] [#1684396635|57945C2C97C84B323F9288C0E0A34127] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php:385
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(258): ossn_comment_menu()
+#1 /usr/www/users/weplayb/network/components/OssnComments/plugins/default/comments/templates/comment.php(14): ossn_trigger_callback()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php(575): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/components/OssnComments/plugins/default/comments/post/comments.php(47): ossn_comment_view()
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#9 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#10 /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php(291): ossn_plugin_view()
+#11 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_post_comments()
+#12 /usr/www/users/weplayb/network/components/OssnWall/plugins/default/wall/templates/wall/user/item.php(145): ossn_call_hook()
+#13 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#14 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#15 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#16 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(617): ossn_plugin_view()
+#17 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_templates()
+#18 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#19 /usr/www/users/weplayb/network/components/OssnWall/plugins/default/wall/user/wall.php(33): ossn_wall_view_template()
+#20 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#21 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#22 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#23 /usr/www/users/weplayb/network/components/OssnProfile/plugins/default/profile/pages/profile.php(137): ossn_plugin_view()
+#24 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#25 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#26 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#27 /usr/www/users/weplayb/network/components/OssnProfile/ossn_com.php(282): ossn_plugin_view()
+#28 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): profile_page_handler()
+#29 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#30 {main}
+[18-May-2023 11:00:08 Europe/Moscow] [#1684396808|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Unknown column 'agent_status' in 'field list' in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1830): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 11:01:06 Europe/Moscow] [#1684396866|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Incorrect date value: 'none' for column `weplayb_db1`.`we_users`.`agent_accept_date` at row 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1830): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 11:01:11 Europe/Moscow] [#1684396871|EFF361DCF5847DD208C7804FA3D7B18C] mysqli_sql_exception: Incorrect date value: 'none' for column `weplayb_db1`.`we_users`.`agent_accept_date` at row 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1830): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1527): User->EditSkills()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[18-May-2023 10:28:41 Europe/Berlin] [#1684398521|4322C173CE8CB15E323759DA6C44BAA2] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[18-May-2023 10:28:48 Europe/Berlin] [#1684398528|AA1143B45F5AF0DF918C5334C27A106B] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[18-May-2023 10:28:53 Europe/Berlin] [#1684398533|E4ACF946C00A9D88698369130F5B46A3] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[18-May-2023 11:32:46 Europe/Moscow] [#1684398766|FFE14C57CBDA9EBE707EB722C7260BF9] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[18-May-2023 16:40:23 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:40:23 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:40:23 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:40:23 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:40:23 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:40:23 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:40:23 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:40:25 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:40:25 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:40:25 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:40:25 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:40:25 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:40:25 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:40:25 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:40:38 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:40:38 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:40:38 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:40:38 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:40:38 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:40:38 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:40:38 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:40:55 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:40:55 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:40:55 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:40:55 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:40:55 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:40:55 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:40:55 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:10 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:10 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:10 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:10 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:10 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:10 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:10 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:23 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:23 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:23 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:23 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:23 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:23 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:23 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:25 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:25 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:25 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:25 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:25 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:25 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:25 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:27 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:27 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:27 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:27 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:27 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:27 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:27 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:33 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:33 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:33 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:33 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:33 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:33 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:33 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:34 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:34 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:34 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:34 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:34 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:34 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:34 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:39 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:39 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:39 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:39 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:39 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:39 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:39 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:41:55 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:41:55 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:41:55 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:41:55 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:41:55 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:41:55 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:41:55 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:42:02 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:42:02 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:42:02 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:42:02 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:42:02 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:42:02 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:42:02 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:42:28 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:42:28 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:42:28 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:42:28 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:42:28 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:42:28 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:42:28 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:42:30 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:42:30 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:42:30 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:42:30 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:42:30 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:42:30 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:42:30 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:42:42 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:42:42 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:42:42 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:42:42 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:42:42 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:42:42 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:42:42 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:43:15 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:43:15 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:43:15 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:43:15 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:43:15 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:43:15 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:43:15 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:43:35 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:43:35 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:43:35 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:43:35 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:43:35 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:43:35 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:43:35 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:01 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:01 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:01 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:01 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:01 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:01 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:01 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:07 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:07 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:07 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:07 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:07 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:07 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:07 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:17 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:17 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:17 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:17 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:17 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:17 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:17 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:23 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:23 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:23 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:23 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:23 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:23 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:23 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:28 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:28 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:28 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:28 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:28 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:28 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:28 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:42 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:42 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:42 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:42 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:42 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:42 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:42 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:44:47 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:44:47 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:44:47 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:44:47 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:44:47 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:44:47 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:44:47 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:00 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:00 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:00 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:00 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:00 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:00 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:00 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:03 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:03 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:03 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:03 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:03 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:03 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:03 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:17 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:17 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:17 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:17 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:17 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:17 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:17 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:28 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:28 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:28 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:28 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:28 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:28 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:28 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:37 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:37 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:37 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:37 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:37 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:37 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:37 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[18-May-2023 16:45:37 Europe/Berlin] PHP Fatal error:  <br>The encoded file <b>/usr/www/users/weplayb/network/components/Kernel/lib/init.php</b> is corrupt. in Unknown on line 0
+[18-May-2023 16:45:37 Europe/Berlin] PHP Stack trace:
+[18-May-2023 16:45:37 Europe/Berlin] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[18-May-2023 16:45:37 Europe/Berlin] PHP   2. require_once() /usr/www/users/weplayb/index.php:55
+[18-May-2023 16:45:37 Europe/Berlin] PHP   3. include_once() /usr/www/users/weplayb/network/system/start.php:40
+[18-May-2023 16:45:37 Europe/Berlin] PHP   4. OssnComponents->loadComs() /usr/www/users/weplayb/network/libraries/ossn.lib.components.php:69
+[18-May-2023 16:45:37 Europe/Berlin] PHP   5. include_once() /usr/www/users/weplayb/network/classes/OssnComponents.php:254
+[19-May-2023 01:58:22 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[19-May-2023 01:58:22 Europe/Moscow] PHP Stack trace:
+[19-May-2023 01:58:22 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[19-May-2023 01:58:22 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[19-May-2023 03:43:43 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[19-May-2023 03:43:43 Europe/Moscow] PHP Stack trace:
+[19-May-2023 03:43:43 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[19-May-2023 03:43:43 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[19-May-2023 15:20:16 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[19-May-2023 15:20:16 Europe/Moscow] PHP Stack trace:
+[19-May-2023 15:20:16 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[19-May-2023 15:20:16 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[19-May-2023 16:09:27 Europe/Moscow] [#1684501767|55385A3BE02451EDFC10069F76AACE61] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'agent_id=284 LIMIT 1' at line 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(113): DB->query()
+#2 /usr/www/users/weplayb/classes/UserAgent.php(108): DB->select()
+#3 /usr/www/users/weplayb/ajax.php(1873): UserAgent->getClientForAjax()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[19-May-2023 16:14:48 Europe/Moscow] [#1684502088|55385A3BE02451EDFC10069F76AACE61] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'agent_id=284 LIMIT 1' at line 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(113): DB->query()
+#2 /usr/www/users/weplayb/classes/UserAgent.php(106): DB->select()
+#3 /usr/www/users/weplayb/ajax.php(1873): UserAgent->getClientForAjax()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[19-May-2023 16:22:14 Europe/Moscow] [#1684502534|55385A3BE02451EDFC10069F76AACE61] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'agent_id=284 LIMIT 1' at line 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(113): DB->query()
+#2 /usr/www/users/weplayb/classes/UserAgent.php(108): DB->select()
+#3 /usr/www/users/weplayb/ajax.php(1873): UserAgent->getClientForAjax()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[20-May-2023 01:19:24 Europe/Berlin] [#1684538364|5B9003B9C88CA6CE02D6423C034D8E91] Error: Call to a member function isAdmin() on string in /usr/www/users/weplayb/network/components/OssnGroups/plugins/default/groups/pages/profile.php:52
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/OssnGroups/ossn_com.php(302): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): ossn_group_page()
+#5 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#6 {main}
+[20-May-2023 04:03:47 Europe/Berlin] [#1684548227|916D88F793F356DC6A1EF9C48B7EF112] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[20-May-2023 09:44:49 Europe/Moscow] [#1684565089|ED3FCB38C1FAADF3D219FCA02A89FD30] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-50' at line 30 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/Hiring.php(114): DB->query()
+#2 /usr/www/users/weplayb/index.php(108): Hiring->Content()
+#3 {main}
+[20-May-2023 12:28:48 Europe/Moscow] [#1684574928|3BC7E2D255F278446929AB1F86E07268] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-50' at line 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(113): DB->query()
+#2 /usr/www/users/weplayb/classes/Hiring.php(69): DB->select()
+#3 /usr/www/users/weplayb/index.php(108): Hiring->Content()
+#4 {main}
+[20-May-2023 12:19:45 Europe/Berlin] [#1684577985|3D305AA7DB1CACE6CEFDC03FCED4C8F4] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[20-May-2023 15:10:14 Europe/Moscow] [#1684584614|DC6A4FFE1CB2DD3879E408E739CA12D8] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[21-May-2023 07:30:39 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 07:30:39 Europe/Moscow] PHP Stack trace:
+[21-May-2023 07:30:39 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 07:30:39 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 08:23:41 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 08:23:41 Europe/Moscow] PHP Stack trace:
+[21-May-2023 08:23:41 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 08:23:41 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 15:09:18 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 15:09:18 Europe/Moscow] PHP Stack trace:
+[21-May-2023 15:09:18 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 15:09:18 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 15:20:15 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 15:20:15 Europe/Moscow] PHP Stack trace:
+[21-May-2023 15:20:15 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 15:20:15 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 15:20:30 Europe/Moscow] [#1684671630|5336C6CF76A0D9BD46A480D3A5F621E4] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[21-May-2023 21:53:20 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 21:53:20 Europe/Moscow] PHP Stack trace:
+[21-May-2023 21:53:20 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 21:53:20 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 21:33:22 Europe/Berlin] [#1684697602|2D4BC5001F2952A19CD189005B9C2389] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[21-May-2023 21:33:26 Europe/Berlin] [#1684697606|5B5651454830D132FA6F65C0AACBD8D5] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[21-May-2023 21:33:28 Europe/Berlin] [#1684697608|031343EE7D79FB59392777AA1EBDAADF] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[21-May-2023 22:37:02 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[21-May-2023 22:37:02 Europe/Moscow] PHP Stack trace:
+[21-May-2023 22:37:02 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[21-May-2023 22:37:02 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[21-May-2023 22:39:12 Europe/Moscow] [#1684697952|33E7217EAD60DBBABD05586959F7786A] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[22-May-2023 05:40:57 Europe/Moscow] [#1684723257|91BDAFA0F2F4F5A8E8460042DF21F76B] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-50' at line 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(113): DB->query()
+#2 /usr/www/users/weplayb/classes/Hiring.php(69): DB->select()
+#3 /usr/www/users/weplayb/index.php(108): Hiring->Content()
+#4 {main}
+[22-May-2023 13:37:27 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[22-May-2023 13:37:27 Europe/Moscow] PHP Stack trace:
+[22-May-2023 13:37:27 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[22-May-2023 13:37:27 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[22-May-2023 23:01:30 Europe/Berlin] [#1684789290|D90387351A76501CF813A4B061160251] TypeError: Unsupported operand types: int - string in /usr/www/users/weplayb/network/components/Kernel/classes/Kernel.php:0
+Stack trace:
+#0 /usr/www/users/weplayb/network/components/Kernel/classes/Kernel.php(0): Kernel::isMemCacheStatusExpired()
+#1 /usr/www/users/weplayb/network/components/Kernel/lib/init.php(0): Kernel::setMemcachedStatus()
+#2 /usr/www/users/weplayb/network/components/Kernel/ossn_com.php(20): require_once('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/classes/OssnComponents.php(254): include_once('/usr/www/users/...')
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.components.php(69): OssnComponents->loadComs()
+#5 /usr/www/users/weplayb/network/system/start.php(40): include_once('/usr/www/users/...')
+#6 /usr/www/users/weplayb/index.php(55): require_once('/usr/www/users/...')
+#7 {main}
+[23-May-2023 03:51:47 Europe/Moscow] [#1684803107|3C92968B94A0D085A03835713FAB2CBF] mysqli_sql_exception: Incorrect integer value: '' for column `weplayb_db1`.`we_bodyshape`.`nude` at row 2 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1998): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1534): User->EditBodyshape()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[23-May-2023 03:55:45 Europe/Moscow] [#1684803345|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 03:55:51 Europe/Moscow] [#1684803351|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 03:55:52 Europe/Moscow] [#1684803352|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 03:55:52 Europe/Moscow] [#1684803352|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 03:55:53 Europe/Moscow] [#1684803353|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 03:55:53 Europe/Moscow] [#1684803353|3C92968B94A0D085A03835713FAB2CBF] TypeError: unserialize(): Argument #1 ($data) must be of type string, array given in /usr/www/users/weplayb/ajax.php:1212
+Stack trace:
+#0 /usr/www/users/weplayb/ajax.php(1212): unserialize()
+#1 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#2 {main}
+[23-May-2023 07:55:03 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[23-May-2023 07:55:03 Europe/Moscow] PHP Stack trace:
+[23-May-2023 07:55:03 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[23-May-2023 07:55:03 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[23-May-2023 23:59:56 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[23-May-2023 23:59:56 Europe/Moscow] PHP Stack trace:
+[23-May-2023 23:59:56 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[23-May-2023 23:59:56 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[24-May-2023 05:40:54 Europe/Berlin] [#1684899654|F4F83EDB505E14114C43AB5310BDCA31] Error: Call to a member function isAdmin() on string in /usr/www/users/weplayb/network/components/OssnGroups/plugins/default/groups/pages/profile.php:52
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/OssnGroups/ossn_com.php(302): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): ossn_group_page()
+#5 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#6 {main}
+[24-May-2023 19:54:17 Europe/Berlin] [#1684950857|1044AD46223C30C3CA3521AF7C812DE9] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[25-May-2023 21:34:51 Europe/Berlin] [#1685043291|0415C39D1E93F1B81EC324F1EF4A70EA] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[25-May-2023 22:50:21 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[25-May-2023 22:50:21 Europe/Moscow] PHP Stack trace:
+[25-May-2023 22:50:21 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[25-May-2023 22:50:21 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[26-May-2023 06:20:37 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[26-May-2023 06:20:37 Europe/Moscow] PHP Stack trace:
+[26-May-2023 06:20:37 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[26-May-2023 06:20:37 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[26-May-2023 08:45:54 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[26-May-2023 08:45:54 Europe/Moscow] PHP Stack trace:
+[26-May-2023 08:45:54 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[26-May-2023 08:45:54 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[26-May-2023 12:21:36 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[26-May-2023 12:21:36 Europe/Moscow] PHP Stack trace:
+[26-May-2023 12:21:36 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[26-May-2023 12:21:36 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[26-May-2023 14:55:34 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[26-May-2023 14:55:34 Europe/Moscow] PHP Stack trace:
+[26-May-2023 14:55:34 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[26-May-2023 14:55:34 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[26-May-2023 22:06:54 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[26-May-2023 22:06:54 Europe/Moscow] PHP Stack trace:
+[26-May-2023 22:06:54 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[26-May-2023 22:06:54 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[27-May-2023 22:36:13 Europe/Berlin] [#1685219773|FB115BC9BBFA294CC228325840E54CD6] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[28-May-2023 01:56:40 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[28-May-2023 01:56:40 Europe/Moscow] PHP Stack trace:
+[28-May-2023 01:56:40 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[28-May-2023 01:56:40 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[28-May-2023 07:59:51 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[28-May-2023 07:59:51 Europe/Moscow] PHP Stack trace:
+[28-May-2023 07:59:51 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[28-May-2023 07:59:51 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[28-May-2023 13:52:37 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[28-May-2023 13:52:37 Europe/Moscow] PHP Stack trace:
+[28-May-2023 13:52:37 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[28-May-2023 13:52:37 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[28-May-2023 19:24:23 Europe/Moscow] [#1685291063|CBC98B528195F6D1B6E6DB289313C180] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[28-May-2023 21:09:08 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[28-May-2023 21:09:08 Europe/Moscow] PHP Stack trace:
+[28-May-2023 21:09:08 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[28-May-2023 21:09:08 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[29-May-2023 00:13:56 Europe/Berlin] [#1685312036|8EF8024D7294B5B4303DC11E315589F2] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[29-May-2023 03:57:40 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[29-May-2023 03:57:40 Europe/Moscow] PHP Stack trace:
+[29-May-2023 03:57:40 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[29-May-2023 03:57:40 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[29-May-2023 04:01:54 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[29-May-2023 04:01:54 Europe/Moscow] PHP Stack trace:
+[29-May-2023 04:01:54 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[29-May-2023 04:01:54 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[29-May-2023 04:11:12 Europe/Moscow] [#1685322672|98EA593371CE879FDA112CE08357EF20] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[29-May-2023 03:46:39 Europe/Berlin] [#1685324799|397B9B0970BD6D376F027D67FF4CE779] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[29-May-2023 04:09:25 Europe/Berlin] [#1685326165|642D1C255915D33730D569CF6A791A7D] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[29-May-2023 05:14:19 Europe/Berlin] [#1685330059|2587227E1011D3756753265B802FC5DB] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[29-May-2023 12:46:18 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[29-May-2023 12:46:18 Europe/Moscow] PHP Stack trace:
+[29-May-2023 12:46:18 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[29-May-2023 12:46:18 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 07:33:55 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 07:33:55 Europe/Moscow] PHP Stack trace:
+[30-May-2023 07:33:55 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 07:33:55 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 08:51:16 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 08:51:16 Europe/Moscow] PHP Stack trace:
+[30-May-2023 08:51:16 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 08:51:16 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 09:28:37 Europe/Moscow] [#1685428117|6F86ABCAE746184282FC4D2E7BEC1F0F] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[30-May-2023 10:35:59 Europe/Berlin] [#1685435759|1B6FF5EA8BB8B675C9FA503E8D305541] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[30-May-2023 13:05:51 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 13:05:51 Europe/Moscow] PHP Stack trace:
+[30-May-2023 13:05:51 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 13:05:51 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 13:17:38 Europe/Moscow] [#1685441858|087726D8F1875F2336D3DFE92C519205] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[30-May-2023 13:19:16 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 13:19:16 Europe/Moscow] PHP Stack trace:
+[30-May-2023 13:19:16 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 13:19:16 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 12:21:24 Europe/Berlin] [#1685442084|5234B42EB41746E2F723FB6529454491] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[30-May-2023 12:21:27 Europe/Berlin] [#1685442087|F42F1982434D8E342260E1F5A478316D] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[30-May-2023 12:21:30 Europe/Berlin] [#1685442090|AF47ED404E403B24E42D540C6B73F9DA] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[30-May-2023 13:28:18 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 13:28:18 Europe/Moscow] PHP Stack trace:
+[30-May-2023 13:28:18 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 13:28:18 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[30-May-2023 15:50:50 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[30-May-2023 15:50:50 Europe/Moscow] PHP Stack trace:
+[30-May-2023 15:50:50 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[30-May-2023 15:50:50 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[31-May-2023 03:05:11 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[31-May-2023 03:05:11 Europe/Moscow] PHP Stack trace:
+[31-May-2023 03:05:11 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[31-May-2023 03:05:11 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[31-May-2023 07:17:26 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[31-May-2023 07:17:26 Europe/Moscow] PHP Stack trace:
+[31-May-2023 07:17:26 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[31-May-2023 07:17:26 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[31-May-2023 11:20:52 Europe/Moscow] [#1685521252|58FF8F70C2C073136265BF315A33AE96] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[31-May-2023 12:54:30 Europe/Berlin] [#1685530470|CDFFB22624E5DB4AD03002AF54F739B9] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php:385
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(258): ossn_comment_menu()
+#1 /usr/www/users/weplayb/network/components/OssnComments/plugins/default/comments/templates/comment.php(14): ossn_trigger_callback()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php(575): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/components/OssnComments/plugins/default/comments/post/comments.php(47): ossn_comment_view()
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#9 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#10 /usr/www/users/weplayb/network/components/OssnComments/ossn_com.php(291): ossn_plugin_view()
+#11 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_post_comments()
+#12 /usr/www/users/weplayb/network/components/OssnWall/plugins/default/wall/templates/wall/user/item.php(145): ossn_call_hook()
+#13 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#14 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#15 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#16 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(617): ossn_plugin_view()
+#17 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_templates()
+#18 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#19 /usr/www/users/weplayb/network/components/OssnWall/plugins/default/wall/user/wall.php(33): ossn_wall_view_template()
+#20 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#21 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#22 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#23 /usr/www/users/weplayb/network/components/OssnProfile/plugins/default/profile/pages/profile.php(137): ossn_plugin_view()
+#24 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#25 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#26 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#27 /usr/www/users/weplayb/network/components/OssnProfile/ossn_com.php(282): ossn_plugin_view()
+#28 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): profile_page_handler()
+#29 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#30 {main}
+[31-May-2023 15:33:49 Europe/Berlin] [#1685540029|991D1A104F78E8FF43B699ADA578CA8A] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[01-Jun-2023 04:20:11 Europe/Moscow] [#1685582411|036FE263643948EA6CA9542B850382C7] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[01-Jun-2023 11:28:58 Europe/Berlin] [#1685611738|2AF62393D92EEE53BE9D9417FB589E18] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[01-Jun-2023 15:10:39 Europe/Moscow] [#1685621439|D84D202F8B4D1CCD2682218DF9216D55] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[01-Jun-2023 22:07:58 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[01-Jun-2023 22:07:58 Europe/Moscow] PHP Stack trace:
+[01-Jun-2023 22:07:58 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[01-Jun-2023 22:07:58 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[01-Jun-2023 23:30:49 Europe/Moscow] [#1685651449|19A3A662D2A5C0B5BAECB8FB56BC69DE] mysqli_sql_exception: Incorrect integer value: '' for column `weplayb_db1`.`we_bodyshape`.`nude` at row 1 in /usr/www/users/weplayb/classes/MySQL.php:183
+Stack trace:
+#0 /usr/www/users/weplayb/classes/MySQL.php(183): mysqli_query()
+#1 /usr/www/users/weplayb/classes/MySQL.php(170): DB->query()
+#2 /usr/www/users/weplayb/classes/User.php(1999): DB->update()
+#3 /usr/www/users/weplayb/classes/User.php(1535): User->EditBodyshape()
+#4 /usr/www/users/weplayb/classes/User.php(20): User->EditForm()
+#5 /usr/www/users/weplayb/index.php(108): User->Content()
+#6 {main}
+[02-Jun-2023 00:09:50 Europe/Moscow] [#1685653790|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Class "Polls" not found in /usr/www/users/weplayb/index.php:106
+Stack trace:
+#0 {main}
+[02-Jun-2023 01:22:09 Europe/Moscow] [#1685658129|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php:479
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_post_menu()
+#1 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php(14): ossn_call_hook()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#9 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#10 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#11 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#12 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#13 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#14 {main}
+[02-Jun-2023 01:23:17 Europe/Moscow] [#1685658197|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php:479
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_post_menu()
+#1 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php(14): ossn_call_hook()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#9 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#10 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#11 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#12 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#13 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#14 {main}
+[02-Jun-2023 01:24:34 Europe/Moscow] [#1685658274|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php:479
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_post_menu()
+#1 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php(14): ossn_call_hook()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#9 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#10 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#11 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#12 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#13 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#14 {main}
+[02-Jun-2023 01:24:36 Europe/Moscow] [#1685658276|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php:495
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_post_menu()
+#1 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php(14): ossn_call_hook()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#9 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#10 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#11 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#12 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#13 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#14 {main}
+[02-Jun-2023 01:24:37 Europe/Moscow] [#1685658277|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function canModerate() on bool in /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php:495
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_post_menu()
+#1 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php(14): ossn_call_hook()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#3 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#5 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#7 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#9 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#10 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#11 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#12 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#13 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#14 {main}
+[02-Jun-2023 01:27:37 Europe/Moscow] [#1685658457|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class stdClass could not be converted to string in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php:8
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#7 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#9 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#10 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#11 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#12 {main}
+[02-Jun-2023 01:27:38 Europe/Moscow] [#1685658458|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class stdClass could not be converted to string in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall/user.php:8
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/wall.php(19): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#7 /usr/www/users/weplayb/ossn_data/memcached/ed29e75037443b824dbc1dcabe0af817/1e906eea0f7893e040b133a910f2ceca(0): ossn_plugin_view()
+#8 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): ossn_wall_poll()
+#9 /usr/www/users/weplayb/network/components/OssnWall/ossn_com.php(599): ossn_call_hook()
+#10 /usr/www/users/weplayb/classes/Html.php(546): ossn_wall_view_template()
+#11 /usr/www/users/weplayb/index.php(123): Html->MainPage()
+#12 {main}
+[02-Jun-2023 01:49:08 Europe/Moscow] [#1685659748|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:52:44 Europe/Moscow] [#1685659964|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:25 Europe/Moscow] [#1685660185|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:26 Europe/Moscow] [#1685660186|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:46 Europe/Moscow] [#1685660206|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:47 Europe/Moscow] [#1685660207|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:47 Europe/Moscow] [#1685660207|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 01:56:48 Europe/Moscow] [#1685660208|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Call to a member function isMember() on bool in /usr/www/users/weplayb/network/components/Polls/plugins/default/polls/pages/view_main.php:24
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/design/tpl/view_polls.tpl.php(4): ossn_plugin_view()
+#4 /usr/www/users/weplayb/classes/Polls.php(45): include('/usr/www/users/...')
+#5 /usr/www/users/weplayb/index.php(108): Polls->Content()
+#6 {main}
+[02-Jun-2023 02:08:55 Europe/Moscow] [#1685660935|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class OssnUser could not be converted to string in /usr/www/users/weplayb/network/classes/OssnDatabase.php:100
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(100): str_replace()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(42): OssnObject->addObject()
+#3 /usr/www/users/weplayb/ajax.php(90): Softlab24\Ossn\Component\Polls->addPoll()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[02-Jun-2023 02:10:35 Europe/Moscow] [#1685661035|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class OssnUser could not be converted to string in /usr/www/users/weplayb/network/classes/OssnDatabase.php:100
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(100): str_replace()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(42): OssnObject->addObject()
+#3 /usr/www/users/weplayb/ajax.php(90): Softlab24\Ossn\Component\Polls->addPoll()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[02-Jun-2023 02:10:36 Europe/Moscow] [#1685661036|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class OssnUser could not be converted to string in /usr/www/users/weplayb/network/classes/OssnDatabase.php:100
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(100): str_replace()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(42): OssnObject->addObject()
+#3 /usr/www/users/weplayb/ajax.php(90): Softlab24\Ossn\Component\Polls->addPoll()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[02-Jun-2023 02:10:37 Europe/Moscow] [#1685661037|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class OssnUser could not be converted to string in /usr/www/users/weplayb/network/classes/OssnDatabase.php:100
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(100): str_replace()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(42): OssnObject->addObject()
+#3 /usr/www/users/weplayb/ajax.php(90): Softlab24\Ossn\Component\Polls->addPoll()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[02-Jun-2023 02:10:37 Europe/Moscow] [#1685661037|19A3A662D2A5C0B5BAECB8FB56BC69DE] Error: Object of class OssnUser could not be converted to string in /usr/www/users/weplayb/network/classes/OssnDatabase.php:100
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(100): str_replace()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(42): OssnObject->addObject()
+#3 /usr/www/users/weplayb/ajax.php(90): Softlab24\Ossn\Component\Polls->addPoll()
+#4 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#5 {main}
+[02-Jun-2023 12:25:34 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[02-Jun-2023 12:25:34 Europe/Moscow] PHP Stack trace:
+[02-Jun-2023 12:25:34 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[02-Jun-2023 12:25:34 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[02-Jun-2023 14:03:08 Europe/Moscow] [#1685703788|0F09C004D3CB80E6E034B942FFD28E2D] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[02-Jun-2023 14:51:12 Europe/Berlin] [#1685710272|F4ADD81285B69A84C5DB8B779088DC94] Error: Call to a member function getID() on bool in /usr/www/users/weplayb/network/components/OssnComments/actions/comment/delete.php:46
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.actions.php(51): include_once()
+#1 /usr/www/users/weplayb/network/system/handlers/actions.php(13): ossn_action()
+#2 {main}
+[02-Jun-2023 18:34:05 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[02-Jun-2023 18:34:05 Europe/Moscow] PHP Stack trace:
+[02-Jun-2023 18:34:05 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[02-Jun-2023 18:34:05 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[02-Jun-2023 20:08:39 Europe/Moscow] [#1685725719|CCD7E8361A046FC18BCC31E007960B79] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[02-Jun-2023 21:22:31 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[02-Jun-2023 21:22:31 Europe/Moscow] PHP Stack trace:
+[02-Jun-2023 21:22:31 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[02-Jun-2023 21:22:31 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[03-Jun-2023 06:46:19 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[03-Jun-2023 06:46:19 Europe/Moscow] PHP Stack trace:
+[03-Jun-2023 06:46:19 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[03-Jun-2023 06:46:19 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[03-Jun-2023 23:35:19 Europe/Berlin] [#1685828119|F31FC3C0CB8037A190088FB4DB83BCAD] Error: Call to a member function isAdmin() on null in /usr/www/users/weplayb/network/components/OssnGroups/plugins/default/groups/search/view.php:41
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/OssnGroups/ossn_com.php(133): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): groups_search_handler()
+#5 /usr/www/users/weplayb/network/components/OssnSearch/ossn_com.php(46): ossn_call_hook()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): ossn_search_page()
+#7 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#8 {main}
+[04-Jun-2023 02:12:33 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[04-Jun-2023 02:12:33 Europe/Moscow] PHP Stack trace:
+[04-Jun-2023 02:12:33 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[04-Jun-2023 02:12:33 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[04-Jun-2023 05:43:16 Europe/Moscow] [#1685846596|FB7824279C6D5491B3C18B92B424BCDE] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:17 Europe/Moscow] [#1685846597|E4D3777508A3AD10E95C674A0339EA6E] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:19 Europe/Moscow] [#1685846599|E6C1C041187874A952B27F7E7F00685D] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:21 Europe/Moscow] [#1685846601|BD29E1F8E192122F9B9A9956C07F1997] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:22 Europe/Moscow] [#1685846602|3D0646C750F99145481464AB92193E8C] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:24 Europe/Moscow] [#1685846604|83BB44F72278E268263E415369AC6CAF] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 05:43:25 Europe/Moscow] [#1685846605|F99A63B965F00B9CAE0081F6B9A200CD] TypeError: Cannot access offset of type string on string in /usr/www/users/weplayb/design/tpl/festival.tpl.php:162
+Stack trace:
+#0 /usr/www/users/weplayb/classes/Festivals.php(1827): include()
+#1 /usr/www/users/weplayb/classes/Festivals.php(27): Festivals->LookFestival()
+#2 /usr/www/users/weplayb/index.php(108): Festivals->Content()
+#3 {main}
+[04-Jun-2023 13:38:16 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[04-Jun-2023 13:38:16 Europe/Moscow] PHP Stack trace:
+[04-Jun-2023 13:38:16 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[04-Jun-2023 13:38:16 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[04-Jun-2023 14:13:21 Europe/Berlin] [#1685880801|073B21B960B9B38F000EE80822B830E7] Error: Call to a member function isAdmin() on null in /usr/www/users/weplayb/network/components/OssnGroups/plugins/default/groups/search/view.php:41
+Stack trace:
+#0 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(27): include()
+#1 /usr/www/users/weplayb/network/libraries/ossn.lib.views.php(50): ossn_include()
+#2 /usr/www/users/weplayb/network/libraries/ossn.lib.plugins.php(75): ossn_view()
+#3 /usr/www/users/weplayb/network/components/OssnGroups/ossn_com.php(133): ossn_plugin_view()
+#4 /usr/www/users/weplayb/network/libraries/ossn.lib.system.php(223): groups_search_handler()
+#5 /usr/www/users/weplayb/network/components/OssnSearch/ossn_com.php(46): ossn_call_hook()
+#6 /usr/www/users/weplayb/network/libraries/ossn.lib.page.php(79): ossn_search_page()
+#7 /usr/www/users/weplayb/network/index.php(22): ossn_load_page()
+#8 {main}
+[04-Jun-2023 21:31:07 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[04-Jun-2023 21:31:07 Europe/Moscow] PHP Stack trace:
+[04-Jun-2023 21:31:07 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[04-Jun-2023 21:31:07 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[04-Jun-2023 21:33:30 Europe/Moscow] PHP Fatal error:  Cannot declare class Events, because the name is already in use in /usr/www/users/weplayb/classes/Events.php on line 4
+[04-Jun-2023 21:33:30 Europe/Moscow] PHP Stack trace:
+[04-Jun-2023 21:33:30 Europe/Moscow] PHP   1. {main}() /usr/www/users/weplayb/index.php:0
+[04-Jun-2023 21:33:30 Europe/Moscow] PHP   2. require_once() /usr/www/users/weplayb/index.php:105
+[05-Jun-2023 00:06:19 Europe/Moscow] [#1685912779|19A3A662D2A5C0B5BAECB8FB56BC69DE] OssnDatabaseException: SQLSTATE[22007]: Invalid datetime format: 1366 Incorrect integer value: 'add' for column `weplayb_db1`.`ossn_object`.`owner_guid` at row 1 
+ INSERT INTO ossn_object (`owner_guid`, `type`, `subtype`, `time_created`, `title`, `description`) VALUES (?, ?, ?, ?, ?, ?);  in /usr/www/users/weplayb/network/classes/OssnDatabase.php:148
+Stack trace:
+#0 /usr/www/users/weplayb/network/classes/OssnDatabase.php(108): OssnDatabase->execute()
+#1 /usr/www/users/weplayb/network/classes/OssnObject.php(97): OssnDatabase->insert()
+#2 /usr/www/users/weplayb/network/components/OssnWall/classes/OssnWall.php(103): OssnObject->addObject()
+#3 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(109): OssnWall->Post()
+#4 /usr/www/users/weplayb/network/components/Polls/classes/Polls.php(53): Softlab24\Ossn\Component\Polls->addWall()
+#5 /usr/www/users/weplayb/ajax.php(109): Softlab24\Ossn\Component\Polls->addPoll()
+#6 /usr/www/users/weplayb/index.php(85): include('/usr/www/users/...')
+#7 {main}
+[05-Jun-2023 00:08:16 Europe/Moscow] [#1685912896|19A3A662D2A5C0B5BAECB8FB56BC69DE] ParseError: syntax error, unexpected token ";", expecting ")" in /usr/www/users/weplayb/ajax.php:73
+Stack trace:
+#0 {main}
+[05-Jun-2023 00:08:18 Europe/Moscow] [#1685912898|19A3A662D2A5C0B5BAECB8FB56BC69DE] ParseError: syntax error, unexpected token ";", expecting ")" in /usr/www/users/weplayb/ajax.php:73
+Stack trace:
+#0 {main}
+[05-Jun-2023 00:08:19 Europe/Moscow] [#1685912899|19A3A662D2A5C0B5BAECB8FB56BC69DE] ParseError: syntax error, unexpected token ";", expecting ")" in /usr/www/users/weplayb/ajax.php:73
+Stack trace:
+#0 {main}
+[05-Jun-2023 00:08:19 Europe/Moscow] [#1685912899|19A3A662D2A5C0B5BAECB8FB56BC69DE] ParseError: syntax error, unexpected token ";", expecting ")" in /usr/www/users/weplayb/ajax.php:73
+Stack trace:
+#0 {main}

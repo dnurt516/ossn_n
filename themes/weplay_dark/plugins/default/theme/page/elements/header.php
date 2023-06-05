@@ -1,0 +1,59 @@
+<style>
+header {
+	background-color: #222;
+	border-bottom: 1px solid #444;
+	color: #fff;
+	z-index: 1;
+	padding: 5px;
+}
+.sitename-header {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+header label {
+	font-size: 12px;
+    color: #aaa
+}
+
+header input[type='password'],
+header input[type='text'] {
+	padding: 5px 0px !important;
+	color: #000 !important;
+	margin-bottom: 2px !important;
+}
+
+header a {
+	font-size: 12px;
+	color: #fff;
+}
+
+header a:hover {
+	color: #BC8FEC;
+}
+
+header input[type='submit'] {
+	margin-top: 25px!important;
+	padding: 5px 20px !important;
+	background: none;
+}
+</style>
+<header>	
+		<div class="container">
+        	<div class="row">
+        	<div class="col-md-6">
+            	<div class="sitename-header">
+                	<?php echo ossn_site_settings('site_name'); ?>
+                </div>
+            </div>	
+            <div class="col-md-6">
+            	<?php echo ossn_view_form('login', array(
+            			'id' => 'ossn-login',
+           				'action' => ossn_site_url('action/user/login'),
+ 		 	      	));
+				?>
+            </div>
+            </div>
+        </div>
+</header>
